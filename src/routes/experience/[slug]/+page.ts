@@ -9,3 +9,4 @@ export function load({ params }: { params: Record<string, string> }) {
 		return { experience };
 	}
 }
+export const prerender = false;
