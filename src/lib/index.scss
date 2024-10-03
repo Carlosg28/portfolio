@@ -50,7 +50,7 @@
 
 	// fonts
 	--text-f: 'Inter';
-	--title-f: 'Inter';
+	--title-f:  monospace;
 
 	overflow-y: scroll;
 }
@@ -156,7 +156,22 @@ body {
 		}
 	}
 }
-
+.home-page-div{
+	border-right: 5px solid;
+	white-space: nowrap;
+	overflow:hidden;
+	width:100%;
+	animation:
+		// typing 2s steps(18) ,
+		cursor .5s step-end infinite alternate;
+}
+@keyframes cursor{
+	50% {border-color: transparent};
+}
+@keyframes typing{
+	from {width:0};
+	to {width:100%};
+}
 .markdown-container {
 	--code-comment: var(--tertiary-text);
 	--code-punctuation: var(--main-text);

@@ -23,10 +23,10 @@ export const items: Array<Project> = [
 		slug: 'slick-portfolio-svelte',
 		color: '#ff3e00',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'test',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'',
+		links: [{ to: '', label: 'GitHub' }],
 		logo: Assets.Svelte,
 		name: 'Slick Portfolio',
 		period: {
