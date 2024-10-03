@@ -4,7 +4,7 @@ import UnoCSS from 'unocss/vite';
 
 const config: UserConfig = {
 	plugins: [UnoCSS(), sveltekit()],
-	base: 'https://github.com/Carlosg28/portfolio'
+	base: '/portfolio/'
 };
 
 export default config;

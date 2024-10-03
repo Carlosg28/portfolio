@@ -24,7 +24,7 @@ const config = {
 			'@utils': './src/lib/utils'
 		},
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? base : 'https://github.com/Carlosg28/portfolio'
+			base: process.env.NODE_ENV === 'production' ? '/portfolio' : ''
 		}
 	}
 };
