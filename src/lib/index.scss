@@ -162,7 +162,7 @@ body {
 	overflow:hidden;
 	width:100%;
 	animation:
-		// typing 2s steps(18) ,
+		typing 2s steps(18) ,
 		cursor .5s step-end infinite alternate;
 }
 @keyframes cursor{
@@ -170,7 +170,7 @@ body {
 }
 @keyframes typing{
 	from {width:0};
-	to {width:100%};
+
 }
 .markdown-container {
 	--code-comment: var(--tertiary-text);

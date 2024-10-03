@@ -9,3 +9,12 @@ node_modules
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 /.vscode
+.cache/
+temp/
+.tmp/
+.parcel-cache/
+.svelte-kit/
+*.log
+.vscode/
+.idea/
+.DS_Store

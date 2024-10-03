@@ -11,7 +11,7 @@ export const lastName = 'Garcia';
 
 export let fullName = '';
 const japaneseName = "カルロス がえーシア"; // Your Japanese name
-const englishName = "Carlos Garcia"; // Your English name
+export const englishName = "Carlos Garcia"; // Your English name
 
 const typingEffect = (text: string, delay: number): Promise<void> => {
 	return new Promise((resolve) => {
