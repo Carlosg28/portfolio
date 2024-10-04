@@ -9,3 +9,4 @@ export function load({ params }: { params: Record<string, string> }) {
 		return { project };
 	}
 }
+export const prerender=false;

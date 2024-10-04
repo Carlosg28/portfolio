@@ -27,7 +27,6 @@
 			: undefined;
 
 	$: computedTitle = data.project ? `${data.project.name} - ${title}` : title;
-	export const prerender=false;
 </script>
 
 <TabTitle title={computedTitle} />
