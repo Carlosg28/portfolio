@@ -39,7 +39,7 @@ export const transitionToEnglish = async () => {
 
 
 export const description =
-	"I enjoy challenging myself with fun and useful projects. \nInterested in developing AI-driven applications and game \ndev. I like to study Japanese, and play games in my free time. :)";
+	"I enjoy challenging myself with fun and useful projects. \nInterested in developing AI-driven applications and game \ndev. I like to study Japanese, and develop games in my free time. :)";
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/Carlosg28' },
