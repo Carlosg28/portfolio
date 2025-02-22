@@ -10,14 +10,14 @@ export const items: Array<Project> = [
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		shortDescription:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		links: [{ to: 'https://github.com/Carlosg28/ai_rec_system', label: 'GitHub' }],
+		logo: Assets.ReactJs,
 		name: 'AI Recommendation System',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('reactjs', 'html', 'css','react','vite'),
+		type: 'Movie Recommendation System',
 	},
 	{
 		slug: 'slick-portfolio-svelte',
@@ -26,14 +26,14 @@ export const items: Array<Project> = [
 			'test',
 		shortDescription:
 			'',
-		links: [{ to: '', label: 'GitHub' }],
-		logo: Assets.Svelte,
-		name: 'CRUD Expenses Tracker',
+		links: [{ to: 'https://github.com/Carlosg28/expenses-app', label: 'GitHub' }],
+		logo: Assets.MongoDB,
+		name: 'Expenses Tracker',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		skills: getSkills('py', 'css', 'html', 'js',''),
+		type: 'Finance/Expense Management Tool',
 		screenshots: [
 			{
 				label: 'screen 1',
