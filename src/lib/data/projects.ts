@@ -7,9 +7,9 @@ export const items: Array<Project> = [
 		slug: 'slick-portfolio-angular',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Features\n Browse movies by genre.\nSelect movies to add to a list.\nGet personalized movie recommendations based on the selected list.\nShow movie posters and titles.\nToggle movie selections and remove items from the list.\nDisplay movie recommendations with posters.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'This project is a React application that uses the TMDb API to recommend movies based on user-selected genres and previously selected items. It allows users to browse movie genres, add items to a list, and receive movie recommendations.',
 		links: [{ to: 'https://github.com/Carlosg28/ai_rec_system', label: 'GitHub' }],
 		logo: Assets.ReactJs,
 		name: 'AI Recommendation System',
@@ -23,9 +23,9 @@ export const items: Array<Project> = [
 		slug: 'slick-portfolio-svelte',
 		color: '#ff3e00',
 		description:
-			'This project is a React application that uses the TMDb API to recommend movies based on user-selected genres and previously selected items. It allows users to browse movie genres, add items to a list, and receive movie recommendations.',
+			'test',
 		shortDescription:
-			'',
+			'This project is a backend application for managing expenses using CRUD (Create, Read, Update, Delete) operations. It’s built with FastAPI and MongoDB, and it provides a RESTful API for tracking and managing your expense data.',
 		links: [{ to: 'https://github.com/Carlosg28/expenses-app', label: 'GitHub' }],
 		logo: Assets.MongoDB,
 		name: 'Expenses Tracker',
