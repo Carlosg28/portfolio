@@ -12,7 +12,7 @@ export const items: Array<Project> = [
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		name: 'AI Recommendation System',
 		period: {
 			from: new Date()
 		},
@@ -28,7 +28,7 @@ export const items: Array<Project> = [
 			'',
 		links: [{ to: '', label: 'GitHub' }],
 		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		name: 'CRUD Expenses Tracker',
 		period: {
 			from: new Date()
 		},
