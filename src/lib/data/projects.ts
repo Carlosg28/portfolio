@@ -32,7 +32,7 @@ export const items: Array<Project> = [
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('py', 'css', 'html', 'js',''),
+		skills: getSkills('py', 'css', 'html', 'js','mongoDB'),
 		type: 'Finance/Expense Management Tool',
 		screenshots: [
 			{
