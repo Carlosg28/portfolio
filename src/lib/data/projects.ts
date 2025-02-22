@@ -23,7 +23,7 @@ export const items: Array<Project> = [
 		slug: 'slick-portfolio-svelte',
 		color: '#ff3e00',
 		description:
-			'test',
+			'This project is a React application that uses the TMDb API to recommend movies based on user-selected genres and previously selected items. It allows users to browse movie genres, add items to a list, and receive movie recommendations.',
 		shortDescription:
 			'',
 		links: [{ to: 'https://github.com/Carlosg28/expenses-app', label: 'GitHub' }],
