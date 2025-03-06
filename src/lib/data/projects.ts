@@ -23,7 +23,7 @@ export const items: Array<Project> = [
 		slug: 'slick-portfolio-svelte',
 		color: '#ff3e00',
 		description:
-			"Track Your Spending: Easily add, update, and remove expense records.\nOrganized Overview: View all your expenses in a clear, simple list.\nUser-Friendly Interface: Enjoy a straightforward, real-time experience managing your budget.\nReliable Storage: Keep your financial data organized and accessible.",
+			'Track Your Spending: Easily add, update, and remove expense records. <br /> Organized Overview: View all your expenses in a clear, simple list.\nUser-Friendly Interface: Enjoy a straightforward, real-time experience managing your budget.\nReliable Storage: Keep your financial data organized and accessible.',
 		shortDescription:
 			'This project is a backend application for managing expenses using CRUD (Create, Read, Update, Delete) operations. It’s built with FastAPI and MongoDB, and it provides a RESTful API for tracking and managing your expense data.',
 		links: [{ to: 'https://github.com/Carlosg28/expenses-app', label: 'GitHub' }],
